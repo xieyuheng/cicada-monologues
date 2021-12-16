@@ -16,3 +16,20 @@ date: 2021-12-16
 答他话的是一只褐色的蝴蝶，不仔细看还以为是一片枯叶。
 
 # 说数
+
+``` cicada
+datatype Nat {
+  zero: Nat
+  add1(prev: Nat): Nat
+}
+```
+
+``` cicada
+Nat
+
+Nat.zero
+Nat.add1
+
+Nat.add1(Nat.zero)
+Nat.add1(Nat.add1(Nat.zero))
+```
