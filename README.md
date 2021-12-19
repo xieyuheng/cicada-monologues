@@ -1,3 +1,3 @@
 # Cicada Book
 
-[View the book!](https://cicada-lang.org/books/cicada-lang/cicada-book@gitlab.com)
+Read this book at: https://cicada-lang.org/books/github.com/cicada-lang/cicada-book
