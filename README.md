@@ -1,3 +1,3 @@
-# Cicada Book
+# 蝉语独白 / Cicada Monologues
 
-Read this book at: https://readonly.link/books/github.com/cicada-lang/cicada-book
+Read this book at [Readonly.Link](https://readonly.link/books/github.com/xieyuheng/cicada-monologues).
