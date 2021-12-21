@@ -87,6 +87,7 @@ let twelve = Nat.add1(eleven)
 定义好了之后，输入这些名字，就可以打印出来对应的值了，比如，
 
 ``` cicada
+zero
 one
 two
 three
