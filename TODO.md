@@ -1,1 +1,5 @@
-- 01 -- about `Nat`
+- `00-intro` -- about aim
+- `00-intro` -- about syntax
+- `00-intro` -- about vv
+- `01-nat` -- `add`
+- `01-nat` -- `mul`
