@@ -1,6 +1,6 @@
 ---
-title: Intro
-date: 2021-12-16
+title: 数
+date: 2021-12-22
 ---
 
 # Nat
