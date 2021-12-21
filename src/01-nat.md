@@ -23,7 +23,7 @@ date: 2021-12-22
 
 我可以在我的蝉语中，定义一个数据类型（`datatype`），来捕捉「自然数」这个概念试试。
 
-「自然数」的英文叫做 "Natural number"，所以我们用 `Nat` 这个缩写来命名我们的定义。
+「自然数」的英文叫做 "Natural number"，所以我用 `Nat` 这个缩写来命名这个数据类型。
 
 ``` cicada
 datatype Nat {
