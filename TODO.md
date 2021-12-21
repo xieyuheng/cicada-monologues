@@ -1,2 +1,1 @@
-- 01 -- about `Nat` number
-  - need `recursion` keyword
+- 01 -- about `Nat`
