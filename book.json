@@ -1,9 +1,8 @@
 {
-  "title": "蝉语独白 / Cicada Monologues",
+  "title": "蝉语独白",
+  "subtitle": "Cicada Monologues",
   "version": "0.0.1",
-  "authors": [
-    "Xie Yuheng"
-  ],
+  "authors": ["谢宇恒"],
   "date": "2021",
   "src": "src"
 }

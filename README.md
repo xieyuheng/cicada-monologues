@@ -1,3 +1,3 @@
-# 蝉语独白 / Cicada Monologues
+# 蝉语独白
 
-Read this book at [Readonly.Link](https://readonly.link/books/github.com/xieyuheng/cicada-monologues).
+阅读请前往 [只读链接](https://readonly.link/books/github.com/xieyuheng/cicada-monologues)。
