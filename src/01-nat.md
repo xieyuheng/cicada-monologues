@@ -67,18 +67,18 @@ Nat.add1(Nat.add1(Nat.add1(Nat.zero)))
 
 ``` cicada
 let zero = Nat.zero
-let one = add1(zero)
-let two = add1(one)
-let three = add1(two)
-let four = add1(three)
-let five = add1(four)
-let six = add1(five)
-let seven = add1(six)
-let eight = add1(seven)
-let nine = add1(eight)
-let ten = add1(nine)
-let eleven = add1(ten)
-let twelve = add1(eleven)
+let one = Nat.add1(zero)
+let two = Nat.add1(one)
+let three = Nat.add1(two)
+let four = Nat.add1(three)
+let five = Nat.add1(four)
+let six = Nat.add1(five)
+let seven = Nat.add1(six)
+let eight = Nat.add1(seven)
+let nine = Nat.add1(eight)
+let ten = Nat.add1(nine)
+let eleven = Nat.add1(ten)
+let twelve = Nat.add1(eleven)
 ```
 
 大家还记得英文数字的拼写吗？
