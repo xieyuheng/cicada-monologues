@@ -1,4 +1,3 @@
-- `00.2-preface` -- about syntax
 - `00.2-preface` -- about vv
 - `00.2-preface` -- about OOP
 
