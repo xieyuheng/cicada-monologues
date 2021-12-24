@@ -110,3 +110,57 @@ function mul(x: Nat, y: Nat): Nat {
 
 mul(two, two)
 ```
+
+``` cicada
+// NOTE We need to keep the `target` the first argument,
+//   because partial evaluation relys on it.
+
+function power_of(x: Nat, y: Nat): Nat {
+  return induction (x) {
+    case zero => one
+    case add1(_prev, almost) => mul(almost.prev, y)
+  }
+}
+
+function power(base: Nat, n: Nat): Nat {
+  return power_of(n, base)
+}
+```
+
+``` cicada
+function gauss(n: Nat): Nat {
+  return induction (n) {
+    case zero => zero
+    case add1(prev, almost) => add(Nat.add1(prev), almost.prev)
+  }
+}
+
+gauss(zero)
+gauss(one)
+gauss(two)
+gauss(three)
+gauss(four)
+gauss(five)
+gauss(six)
+gauss(seven)
+gauss(eight)
+gauss(nine)
+gauss(ten)
+```
+
+``` cicada
+function factorial(n: Nat): Nat {
+  return induction (n) {
+    case zero => one
+    case add1(prev, almost) => mul(Nat.add1(prev), almost.prev)
+  }
+}
+
+factorial(zero)
+factorial(one)
+factorial(two)
+factorial(three)
+factorial(four)
+factorial(five)
+factorial(six)
+```
