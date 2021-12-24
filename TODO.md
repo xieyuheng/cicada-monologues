@@ -6,5 +6,3 @@
 - `01-nat` -- `power`
 - `01-nat` -- `gauss`
 - `01-nat` -- `factorial`
-
-- `00.2-preface` -- 语法示例
