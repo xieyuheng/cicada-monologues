@@ -38,11 +38,11 @@ datatype Nat {
 
 - 首先是「零 / `zero`」
 
-  `zero: Nat` 的意思就是，`zero` 是一个自然数。
+  `zero: Nat` 的意思是，`zero` 是一个自然数。
 
 - 其次是「加一 / `add1`」
 
-  `add1(prev: Nat): Nat` 的意思就是，如果前一个数是一个自然数，
+  `add1(prev: Nat): Nat` 的意思是，如果前一个数是一个自然数，
   那么「加一」上去之后还是一个自然数。
 
   - 这里 "prev" 是英语 "previous" 的缩写，意思是「前一个」。
