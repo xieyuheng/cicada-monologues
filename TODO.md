@@ -1,5 +1,3 @@
-- `00.2-preface` -- 面向对象的设计
-
 - `01-nat` -- `add`
 - `01-nat` -- `mul`
 - `01-nat` -- `power`
