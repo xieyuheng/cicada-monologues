@@ -90,3 +90,23 @@ three
 ```
 
 未完待续……
+
+``` cicada
+function add(x: Nat, y: Nat): Nat {
+  return induction (x) {
+    case zero => y
+    case add1(_prev, almost) => Nat.add1(almost.prev)
+  }
+}
+```
+
+``` cicada
+function mul(x: Nat, y: Nat): Nat {
+  return induction (x) {
+    case zero => zero
+    case add1(_prev, almost) => add(almost.prev, y)
+  }
+}
+
+mul(two, two)
+```
