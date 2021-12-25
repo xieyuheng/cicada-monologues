@@ -131,7 +131,8 @@ function power(base: Nat, n: Nat): Nat {
 function gauss(n: Nat): Nat {
   return induction (n) {
     case zero => zero
-    case add1(prev, almost) => add(Nat.add1(prev), almost.prev)
+    case add1(prev, almost) =>
+      add(Nat.add1(prev), almost.prev)
   }
 }
 
@@ -152,7 +153,8 @@ gauss(ten)
 function factorial(n: Nat): Nat {
   return induction (n) {
     case zero => one
-    case add1(prev, almost) => mul(Nat.add1(prev), almost.prev)
+    case add1(prev, almost) =>
+      mul(Nat.add1(prev), almost.prev)
   }
 }
 
