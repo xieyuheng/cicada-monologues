@@ -32,6 +32,11 @@ datatype Nat {
 }
 ```
 
+``` cicada
+let zero = Nat.zero
+let add1 = Nat.add1
+```
+
 定义好啦！
 
 有两种方式来构造 `Nat` 的元素：
@@ -50,10 +55,10 @@ datatype Nat {
 将「零、一、二、三」在蝉语中写出来试试，
 
 ``` cicada
-Nat.zero
-Nat.add1(Nat.zero)
-Nat.add1(Nat.add1(Nat.zero))
-Nat.add1(Nat.add1(Nat.add1(Nat.zero)))
+zero
+add1(zero)
+add1(add1(zero))
+add1(add1(add1(zero)))
 ```
 
 上面的代码块是可以运行的。
@@ -65,19 +70,18 @@ Nat.add1(Nat.add1(Nat.add1(Nat.zero)))
 下面，我们试试用 `let` 这个语句来做定义，来给一些常用到的数以名字。
 
 ``` cicada
-let zero = Nat.zero
-let one = Nat.add1(zero)
-let two = Nat.add1(one)
-let three = Nat.add1(two)
-let four = Nat.add1(three)
-let five = Nat.add1(four)
-let six = Nat.add1(five)
-let seven = Nat.add1(six)
-let eight = Nat.add1(seven)
-let nine = Nat.add1(eight)
-let ten = Nat.add1(nine)
-let eleven = Nat.add1(ten)
-let twelve = Nat.add1(eleven)
+let one = add1(zero)
+let two = add1(one)
+let three = add1(two)
+let four = add1(three)
+let five = add1(four)
+let six = add1(five)
+let seven = add1(six)
+let eight = add1(seven)
+let nine = add1(eight)
+let ten = add1(nine)
+let eleven = add1(ten)
+let twelve = add1(eleven)
 ```
 
 定义好了之后，输入这些名字，就可以打印出来对应的值了，比如，
@@ -95,7 +99,7 @@ three
 function add(x: Nat, y: Nat): Nat {
   return induction (x) {
     case zero => y
-    case add1(_prev, almost) => Nat.add1(almost.prev)
+    case add1(_prev, almost) => add1(almost.prev)
   }
 }
 ```
@@ -132,7 +136,7 @@ function gauss(n: Nat): Nat {
   return induction (n) {
     case zero => zero
     case add1(prev, almost) =>
-      add(Nat.add1(prev), almost.prev)
+      add(add1(prev), almost.prev)
   }
 }
 
@@ -154,7 +158,7 @@ function factorial(n: Nat): Nat {
   return induction (n) {
     case zero => one
     case add1(prev, almost) =>
-      mul(Nat.add1(prev), almost.prev)
+      mul(add1(prev), almost.prev)
   }
 }
 
