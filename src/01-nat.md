@@ -33,9 +33,9 @@ title: 自然数
 
     `prev` 代表「前一个 / previous」。
 
-    这里 `zero: Nat` 读做「`zero` 是 `Nat`」。
+    这花括号中的第一行 `zero: Nat` 读做「`zero` 是 `Nat`」。
 
-    猜猜 `add1(prev: Nat): Nat` 怎么读？
+    猜猜第二行 `add1(prev: Nat): Nat` 怎么读？
 
   - 我猜它读做「如果 `prev` 是 `Nat`，那么 `add1(prev)` 也是 `Nat`」。
 
