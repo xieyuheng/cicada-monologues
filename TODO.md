@@ -14,7 +14,7 @@
 
 - 实现类型系统时所用到的概念
 
-  - 附录二：词汇表 / glossary
+  - 附录二 词汇表 / glossary
 
     类型 / type
     构造子，数据构造子 / constructor, data constructor
