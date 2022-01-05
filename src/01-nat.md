@@ -2,171 +2,41 @@
 title: 自然数
 ---
 
-什么是数呢？
+- [dialog]
 
-还记得很小很小的时候，在一个安静的夜里，和爷爷一起学数数。
+  - 什么是数呢？
 
-一、二、三、四、五、六、七、八、九、十、十一……
+  - 数就是数数。
 
-我能数到一百，感觉自己好厉害。
+    一、二、三、……
 
-上小学的时候，学会了加、减、乘、除，也知道了「零」也很重要。
+    「数」这个概念，可能就是我们在生活中所识别出来的一个模式吧。
 
-大学读了数学专业，学到了很多更高阶、更抽象的概念，却还是时不时地自问，
+  - 没错，我们应该从「零」开始，然后数下一个，再下一个……
 
-> 什么是数呢？
+    下面的定义可以描述这种模式吗？
 
-「数」这个概念，可能就是我们在生活中所识别出来的一个模式吧。
+    ``` cicada
+    datatype Nat {
+      zero: Nat
+      add1(prev: Nat): Nat
+    }
+    ```
 
-在很多的经验中，我们都会发现一个很自然的序关系，从「零」开始，然后数下一个，再下一个……
+  - `zero` 是「零」，`add1` 是「加一」也就是「数下一个」。
 
-我们可以在蝉语中，定义一个数据类型，来捕捉「自然数」这个概念试试。
+    但是 `datatype`、`Nat` 还有 `prev` 是什么意思呢？
 
-- 我们用 `datatype` 这个语句来定义数据类型；
-- 「自然数」的英文叫做 "Natural number"，所以我用 `Nat` 这个缩写来命名这个数据类型。
+  - 我们可以用 `datatype` 来定义新的数据类型。
 
-``` cicada
-datatype Nat {
-  zero: Nat
-  add1(prev: Nat): Nat
-}
-```
+    `Nat` 是这个数据类型的名字，它是「自然数 / Natural number」的缩写。
 
-``` cicada
-let zero = Nat.zero
-let add1 = Nat.add1
-```
+    `prev` 是「前一个 / previous」的缩写。
 
-定义好啦！
+    这里 `zero: Nat` 读做「`zero` 是 `Nat`」。
 
-有两种方式来构造 `Nat` 的元素：
+    猜猜 `add1(prev: Nat): Nat` 怎么读？
 
-- 首先是「零 / `zero`」
+  - 如果 `prev` 是 `Nat`，那么 `add1(prev)` 是 `Nat`。
 
-  `zero: Nat` 的意思是，`zero` 是一个自然数。
-
-- 其次是「加一 / `add1`」
-
-  `add1(prev: Nat): Nat` 的意思是，如果前一个数是一个自然数，
-  那么「加一」上去之后还是一个自然数。
-
-  - 这里 "prev" 是英语 "previous" 的缩写，意思是「前一个」。
-
-将「零、一、二、三」在蝉语中写出来试试，
-
-``` cicada
-zero
-add1(zero)
-add1(add1(zero))
-add1(add1(add1(zero)))
-```
-
-上面的代码块是可以运行的。
-
-点击右上角的按钮，然后按 "RUN" 就可以运行了。
-
-不过这里还不涉及到任何运算，所以运行的结果，就是这些数本身。
-
-下面，我们试试用 `let` 这个语句来做定义，来给一些常用到的数以名字。
-
-``` cicada
-let one = add1(zero)
-let two = add1(one)
-let three = add1(two)
-let four = add1(three)
-let five = add1(four)
-let six = add1(five)
-let seven = add1(six)
-let eight = add1(seven)
-let nine = add1(eight)
-let ten = add1(nine)
-let eleven = add1(ten)
-let twelve = add1(eleven)
-```
-
-定义好了之后，输入这些名字，就可以打印出来对应的值了，比如，
-
-``` cicada
-zero
-one
-two
-three
-```
-
-未完待续……
-
-``` cicada
-function add(x: Nat, y: Nat): Nat {
-  return induction (x) {
-    case zero => y
-    case add1(_prev, almost) => add1(almost.prev)
-  }
-}
-```
-
-``` cicada
-function mul(x: Nat, y: Nat): Nat {
-  return induction (x) {
-    case zero => zero
-    case add1(_prev, almost) => add(almost.prev, y)
-  }
-}
-
-mul(two, two)
-```
-
-``` cicada
-// NOTE We need to keep the `target` the first argument,
-//   because partial evaluation relys on it.
-
-function power_of(x: Nat, y: Nat): Nat {
-  return induction (x) {
-    case zero => one
-    case add1(_prev, almost) => mul(almost.prev, y)
-  }
-}
-
-function power(base: Nat, n: Nat): Nat {
-  return power_of(n, base)
-}
-```
-
-``` cicada
-function gauss(n: Nat): Nat {
-  return induction (n) {
-    case zero => zero
-    case add1(prev, almost) =>
-      add(add1(prev), almost.prev)
-  }
-}
-
-gauss(zero)
-gauss(one)
-gauss(two)
-gauss(three)
-gauss(four)
-gauss(five)
-gauss(six)
-gauss(seven)
-gauss(eight)
-gauss(nine)
-gauss(ten)
-```
-
-``` cicada
-function factorial(n: Nat): Nat {
-  return induction (n) {
-    case zero => one
-    case add1(prev, almost) =>
-      mul(add1(prev), almost.prev)
-  }
-}
-
-factorial(zero)
-factorial(one)
-factorial(two)
-factorial(three)
-factorial(four)
-factorial(five)
-factorial(six)
-```
+    也就是「如果前一个数是自然数，那么加一之后还是自然数」。
