@@ -1,13 +1,5 @@
-- `01-nat` outline
-
-  - 以 `Nat` 为例，解释可以用 `datatype` 这个语法关键词来定义类型
-  - 定义类型在于，罗列构造属于这个类型的数据的方式 -- 构造子
-  - 判断形式「`__` 是类型」
-  - 判断形式「`__` 是 `__`」
-  - 判断
-
-- `01-nat` -- `add`
-- `01-nat` -- `mul`
-- `01-nat` -- `power`
-- `01-nat` -- `gauss`
-- `01-nat` -- `factorial`
+- `01-nat` -- 解释「判断」
+- `01-nat` -- 引入 `cons` 与 `Pair`
+- `01-nat` -- 完成对四种「判断句式」的解释
+- `01-nat` -- 给出 "the same as" judgment 的例子，将要用这个 judgment 来引入 evaluation 相关的定义
+- `01-nat`
