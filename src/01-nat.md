@@ -104,7 +104,7 @@ title: 第一章 自然数
 
   - 一是自然数，但是我想 `add1` 并不是自然数，因为它代表「加一」。
 
-  - 下面这个是 `Nat` 吗？
+  - 这个是 `Nat` 吗？
 
     ``` cicada
     add1(zero)
@@ -112,7 +112,7 @@ title: 第一章 自然数
 
   - 是的，因为零加一是一，一是自然数。
 
-  - 下面这个是 `Nat` 吗？
+  - 这个是 `Nat` 吗？
 
     ``` cicada
     Nat.add1(Nat.zero)
@@ -124,3 +124,62 @@ title: 第一章 自然数
 
   - 用 `let` 来做赋值，首先给出所要赋值的名字，然后给出值。
     赋值之后，这个名字就可以代替这个值了。
+
+  - 像给 `zero` 赋值一样，给从一到十的数的英文名赋值。
+
+  - 应该是这样
+
+    ``` cicada
+    let one = add1(zero)
+    let two = add1(one)
+    let three = add1(two)
+    let four = add1(three)
+    let five = add1(four)
+    let six = add1(five)
+    let seven = add1(six)
+    let eight = add1(seven)
+    let nine = add1(eight)
+    let ten = add1(nine)
+    let eleven = add1(ten)
+    let twelve = add1(eleven)
+    ```
+
+    我还定义了 `eleven` 和 `twelve`，
+    也许之后用得到呢！
+
+  - 这个是 `Nat` 吗？
+
+    ``` cicada
+    add1(add1(zero))
+    ```
+
+  - 是的，因为 `add1(zero)` 是 `Nat`，
+    而如果前一个数是 `Nat`，那么 `add1` 还是 `Nat`。
+
+  - 这个是 `Nat` 吗？
+
+    ``` cicada
+    add1(twelve)
+    ```
+
+  - 是的，因为 `twelve` 是 `Nat`，
+    而如果前一个数是 `Nat`，那么 `add1` 还是 `Nat`。
+
+    至于 `twelve` 为什么是 `Nat`，
+    以此类推就可以了。
+
+  - 像这样的句子
+
+    ``` plaintext
+    add1(add1(zero))
+    ```
+
+    还有
+
+    ``` plaintext
+    add1(twelve)
+    ```
+
+    叫做 **判断**。
+
+  - 判断有什么用？
