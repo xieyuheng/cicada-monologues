@@ -53,7 +53,7 @@ title: 第一章 自然数
 
   - 没错。
 
-    并且「构造数据的方式」叫做**构造子**。
+    并且「构造数据的方式」叫做 **构造子**。
 
     这里 `Nat` 有两个构造子，分别是 `zero` 和 `add1`。
 
@@ -179,13 +179,13 @@ title: 第一章 自然数
   - 像这样的句子
 
     ``` plaintext
-    add1(add1(zero))
+    add1(add1(zero)) 是 Nat
     ```
 
     还有
 
     ``` plaintext
-    add1(twelve)
+    add1(twelve) 是 Nat
     ```
 
     叫做 **判断**。
