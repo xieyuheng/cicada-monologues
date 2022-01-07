@@ -211,4 +211,4 @@ title: 第一章 自然数
 
     <div style="display: inline; font-weight: 700; color: #1c1917;">任、深山的道观前、侠客持剑拾级而上、誓要将所有作乱的妖魔斩于殿前。</div>
 
-    <div style="display: inline; font-weight: 700; color: #d6d3d1;">有、安静的咖啡馆里、沐浴着午后的阳光、有位通灵者、嘴里含着牛轧糖、轻轻地敲着键盘。</div>
+    <div style="display: inline; font-weight: 700; color: #d6d3d1;">有、安静的咖啡馆里、沐浴着午后的阳光、有位通灵者、嘴里含着甜甜的牛轧糖、轻轻地敲着键盘。</div>
