@@ -86,7 +86,7 @@ title: 第一章 自然数
 
   - 没错，`zero` 目前还没有意义。
 
-    但是我们可以用 `let` 赋予它意义，
+    但是我们可以用 `let` 赋予它意义
 
     ``` cicada
     let zero = Nat.zero
@@ -94,7 +94,7 @@ title: 第一章 自然数
 
     在这之后 `zero` 就是 `Nat` 了。
 
-    我们还可以对 `add1` 做类似的赋值，
+    我们还可以对 `add1` 做类似的赋值
 
     ``` cicada
     let add1 = Nat.add1
