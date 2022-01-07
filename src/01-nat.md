@@ -190,10 +190,16 @@ title: 第一章 自然数
 
   - 判断有什么用？
 
-- [poem-vertical] 测试
+- [poem-vertical] 通灵者
 
-  - <div style="display: inline; font-weight: 700; color: #ef4444;">与红</div>、
-    <div style="display: inline; font-weight: 700; color: #0ea5e9;">或蓝</div>、
-    <div style="display: inline; font-weight: 700; color: #facc15;">非黄</div>、
-    <div style="display: inline; font-weight: 700; color: #1c1917;">任黑</div>、
-    <div style="display: inline; font-weight: 700; color: #e7e5e4;">有白</div>。
+  - 黄铜发现自己是唢呐，我有什么办法？
+
+    程序员发现自己是通灵者，我也没有办法。
+
+    他声称自己发明了逻辑的色彩。
+
+    <div style="display: inline; font-weight: 700; color: #ef4444;">与红、</div>
+    <div style="display: inline; font-weight: 700; color: #0ea5e9;">或蓝、</div>
+    <div style="display: inline; font-weight: 700; color: #facc15;">非黄、</div>
+    <div style="display: inline; font-weight: 700; color: #1c1917;">任黑、</div>
+    <div style="display: inline; font-weight: 700; color: #e7e5e4;">有白。</div>
