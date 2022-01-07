@@ -207,7 +207,7 @@ title: 第一章 自然数
 
     <div style="display: inline; color: #0ea5e9;">或、故乡的海岸边、旅人初返、或默或语、出神回望天边。</div>
 
-    <div style="display: inline; color: #facc15;">非、杨树林边的小沙滩、傻乎乎的小孩嬉戏着沙丘、不惧暮色，也不想吃饭。</div>
+    <div style="display: inline; color: #facc15;">非、杨树林边的小沙滩、傻乎乎的小孩嬉戏着沙丘、不惧暮色，也不想回家吃饭。</div>
 
     <div style="display: inline; color: #1c1917;">任、深山的道观前、侠客持剑拾级而上、誓要将所有作乱的妖魔斩于殿前。</div>
 
