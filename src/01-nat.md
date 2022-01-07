@@ -203,12 +203,12 @@ title: 第一章 自然数
 
     他声称自己发明了逻辑的色彩。
 
-    <div style="display: inline; font-weight: 700; color: #ef4444;">与、朱红的宫墙外、醉妓胭脂装面、梦与帝相伴。</div>
+    <div style="display: inline; color: #ef4444;">与、朱红的宫墙外、醉妓胭脂装面、梦与帝相伴。</div>
 
-    <div style="display: inline; font-weight: 700; color: #0ea5e9;">或、故乡的海岸边、旅人初返、或默或语、出神回望天边。</div>
+    <div style="display: inline; color: #0ea5e9;">或、故乡的海岸边、旅人初返、或默或语、出神回望天边。</div>
 
-    <div style="display: inline; font-weight: 700; color: #facc15;">非、杨树林边的小沙滩、傻乎乎的小孩嬉戏着沙丘、不惧暮色，也不想吃饭。</div>
+    <div style="display: inline; color: #facc15;">非、杨树林边的小沙滩、傻乎乎的小孩嬉戏着沙丘、不惧暮色，也不想吃饭。</div>
 
-    <div style="display: inline; font-weight: 700; color: #1c1917;">任、深山的道观前、侠客持剑拾级而上、誓要将所有作乱的妖魔斩于殿前。</div>
+    <div style="display: inline; color: #1c1917;">任、深山的道观前、侠客持剑拾级而上、誓要将所有作乱的妖魔斩于殿前。</div>
 
-    <div style="display: inline; font-weight: 700; color: #d6d3d1;">有、安静的咖啡馆里、沐浴着午后的阳光、有位通灵者、嘴里含着甜甜的牛轧糖、轻轻地敲着键盘。</div>
+    <div style="display: inline; color: #d6d3d1;">有、安静的咖啡馆里、沐浴着午后的阳光、有位通灵者、嘴里含着甜甜的牛轧糖、轻轻地敲着键盘。</div>
