@@ -193,7 +193,7 @@ title: 第一章 自然数
 - [poem-vertical] 通灵者之歌 · 逻辑
 
   - 黄铜发现自己是唢呐、我有什么办法？
-    写编程的人发现自己是通灵者、我也没有办法。
+    写程序的人发现自己是通灵者、我也没有办法。
 
     <div style="display: inline; font-weight: 700; color: #ef4444;">与红、</div>
     <div style="display: inline; font-weight: 700; color: #0ea5e9;">或蓝、</div>
