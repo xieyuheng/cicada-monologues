@@ -199,7 +199,7 @@ title: 第一章 自然数
     <div style="display: inline; font-weight: 700; color: #0ea5e9;">或蓝、</div>
     <div style="display: inline; font-weight: 700; color: #facc15;">非黄、</div>
     <div style="display: inline; font-weight: 700; color: #1c1917;">任黑、</div>
-    <div style="display: inline; font-weight: 700; color: #e7e5e4;">有白。</div>
+    <div style="display: inline; font-weight: 700; color: #d6d3d1;">有白。</div>
 
     他声称自己发明了逻辑的色彩。
 
@@ -211,4 +211,4 @@ title: 第一章 自然数
 
     <div style="display: inline; font-weight: 700; color: #1c1917;">任、深山的道观前、侠客持剑拾级而上、誓要将所有作乱的妖魔斩于殿前。</div>
 
-    <div style="display: inline; font-weight: 700; color: #e7e5e4;">有、安静的咖啡馆里、沐浴着午后的阳光、有位通灵者、嘴里含着牛轧糖、轻轻地敲着键盘。</div>
+    <div style="display: inline; font-weight: 700; color: #d6d3d1;">有、安静的咖啡馆里、沐浴着午后的阳光、有位通灵者、嘴里含着牛轧糖、轻轻地敲着键盘。</div>
