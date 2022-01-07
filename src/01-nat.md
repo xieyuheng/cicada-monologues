@@ -197,8 +197,8 @@ title: 第一章 自然数
 
     他声称自己发明了逻辑的色彩。
 
-    <div style="display: inline; font-weight: 700; color: #ef4444;">与红、</div>
-    <div style="display: inline; font-weight: 700; color: #0ea5e9;">或蓝、</div>
-    <div style="display: inline; font-weight: 700; color: #facc15;">非黄、</div>
-    <div style="display: inline; font-weight: 700; color: #1c1917;">任黑、</div>
-    <div style="display: inline; font-weight: 700; color: #e7e5e4;">有白。</div>
+    <span style="display: inline; font-weight: 700; color: #ef4444;">与红、</span>
+    <span style="display: inline; font-weight: 700; color: #0ea5e9;">或蓝、</span>
+    <span style="display: inline; font-weight: 700; color: #facc15;">非黄、</span>
+    <span style="display: inline; font-weight: 700; color: #1c1917;">任黑、</span>
+    <span style="display: inline; font-weight: 700; color: #e7e5e4;">有白。</span>
