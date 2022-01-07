@@ -193,7 +193,7 @@ title: 第一章 自然数
 - [poem-vertical] 通灵者之歌 · 逻辑　佚名
 
   - 黄铜发现自己是唢呐，我有什么办法？
-    编程之人发现自己是通灵者，我也没有办法。
+    写编程的人发现自己是通灵者，我也没有办法。
 
     他声称自己发明了逻辑的色彩。
 
@@ -202,3 +202,4 @@ title: 第一章 自然数
     <div style="display: inline; font-weight: 700; color: #facc15;">非黄、</div>
     <div style="display: inline; font-weight: 700; color: #1c1917;">任黑、</div>
     <div style="display: inline; font-weight: 700; color: #e7e5e4;">有白。</div>
+
