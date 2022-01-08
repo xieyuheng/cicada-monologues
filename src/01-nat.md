@@ -269,19 +269,19 @@ title: 第一章 自然数
 
     请问
 
-    ``` plaintext
+    ``` cicada
     zero
     ```
 
     与
 
-    ``` plaintext
+    ``` cicada
     zero
     ```
 
     是相等的
 
-    ``` plaintext
+    ``` cicada
     Nat
     ```
 
@@ -292,19 +292,19 @@ title: 第一章 自然数
     它们显然是相等的 `Nat`。
 
   -
-    ``` plaintext
+    ``` cicada
     zero
     ```
 
     与
 
-    ``` plaintext
+    ``` cicada
     add1(zero)
     ```
 
     是相等的
 
-    ``` plaintext
+    ``` cicada
     Nat
     ```
 
@@ -323,19 +323,19 @@ title: 第一章 自然数
 
     你能看出
 
-    ``` plaintext
+    ``` cicada
     "小草莓"
     ```
 
     与
 
-    ``` plaintext
+    ``` cicada
     "小草莓"
     ```
 
     是相等的
 
-    ``` plaintext
+    ``` cicada
     String
     ```
 
