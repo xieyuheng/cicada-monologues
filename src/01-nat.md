@@ -583,7 +583,6 @@ title: 第一章 自然数
     ```
 
   -
-
     ``` cicada inactive
     cons("小草莓", "小草莓")
     ```
@@ -603,7 +602,6 @@ title: 第一章 自然数
     吗？
 
   -
-
     ``` cicada inactive
     cons("小草莓", "小草莓")
     ```
