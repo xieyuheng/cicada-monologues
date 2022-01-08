@@ -35,13 +35,25 @@ title: 第一章 自然数
 
   - 我们可以用 `datatype` 来定义数据类型。
 
-    `Nat` 是数据类型名字，代表「自然数 / Natural number」。
+    `Nat` 是数据类型的名字，代表「自然数 / Natural number」。
 
     `prev` 代表「前一个 / previous」。
 
-    这花括号中的第一行 `zero: Nat` 读做「`zero` 是 `Nat`」。
+    这花括号中的第一行
 
-    猜猜第二行 `add1(prev: Nat): Nat` 怎么读？
+    ```
+    zero: Nat
+    ```
+
+    读做「`zero` 是 `Nat`」。
+
+    猜猜第二行
+
+    ```
+    add1(prev: Nat): Nat
+    ```
+
+    怎么读？
 
   - 我猜它读做「如果 `prev` 是 `Nat`，那么 `add1(prev)` 也是 `Nat`」。
 
