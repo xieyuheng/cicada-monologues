@@ -41,7 +41,7 @@ title: 第一章 自然数
 
     这花括号中的第一行
 
-    ```
+    ``` plaintext
     zero: Nat
     ```
 
@@ -49,7 +49,7 @@ title: 第一章 自然数
 
     猜猜第二行
 
-    ```
+    ``` plaintext
     add1(prev: Nat): Nat
     ```
 
