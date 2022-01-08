@@ -35,9 +35,9 @@ title: 第一章 自然数
 
   - 我们可以用 `datatype` 来定义数据类型。
 
-    `Nat` 是数据类型的名字，代表「自然数 / Natural number」。
+    `Nat` 是数据类型的名字，代表「自然数」，即 "Natural number"。
 
-    `prev` 代表「前一个 / previous」。
+    `prev` 代表「前一个」，即 "previous"。
 
     这花括号中的第一行
 
