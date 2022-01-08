@@ -704,11 +704,11 @@ title: 第一章 自然数
 
     都是断言。
 
-- [reminder] `String` 的规则
+- [reminder] `String` 之规则
 
   - `String` 是类型。
 
-- [reminder] `Nat` 的规则
+- [reminder] `Nat` 之规则
 
   - `Nat` 是类型。
 
