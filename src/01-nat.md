@@ -370,7 +370,7 @@ title: 第一章 自然数
 
     下面这些是 `String` 吗？
 
-    ``` plaintext
+    ``` cicada
     "123"
     ```
 
@@ -387,7 +387,7 @@ title: 第一章 自然数
     ```
 
   -
-    ``` plaintext
+    ``` cicada
     "123"
     ```
 
@@ -422,19 +422,19 @@ title: 第一章 自然数
 
     请问
 
-    ``` plaintext
+    ``` cicada
     "小草莓"
     ```
 
     与
 
-    ``` plaintext
+    ``` cicada
     "小草莓"
     ```
 
     是相等的
 
-    ``` plaintext
+    ``` cicada
     String
     ```
 
@@ -445,19 +445,19 @@ title: 第一章 自然数
     因为双引号中的字符是对应相等的。
 
   -
-    ``` plaintext
+    ``` cicada
     "小草莓"
     ```
 
     与
 
-    ``` plaintext
+    ``` cicada
     "冰淇淋"
     ```
 
     是相等的
 
-    ``` plaintext
+    ``` cicada
     String
     ```
 
