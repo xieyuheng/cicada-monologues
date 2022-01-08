@@ -272,13 +272,46 @@ title: 第一章 自然数
     ＿＿与＿＿是相等的＿＿
     ```
 
-    `zero` 与 `zero` 是相等的 `Nat` 吗？
+    ``` plaintext
+    zero
+    ```
+
+    与
+
+    ``` plaintext
+    zero
+    ```
+
+    是相等的
+
+    ``` plaintext
+    Nat
+    ```
+
+    吗？
 
   - 是。
 
     它们显然是相等的 `Nat`。
 
-  - `zero` 与 `add1(zero)` 是相等的 `Nat` 吗？
+  -
+    ``` plaintext
+    zero
+    ```
+
+    与
+
+    ``` plaintext
+    add1(zero)
+    ```
+
+    是相等的
+
+    ``` plaintext
+    Nat
+    ```
+
+    吗？
 
   - 不是。
 
