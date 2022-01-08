@@ -129,7 +129,7 @@ title: 第一章 自然数
 
   - 是。
 
-    因为零加一是一，一是自然数。
+    因为零加一等于一，一是自然数。
 
   - 这个是 `Nat` 吗？
 
@@ -371,11 +371,11 @@ title: 第一章 自然数
     下面这些是 `String` 吗？
 
     ``` cicada
-    "123"
+    "abc"
     ```
 
     ``` plaintext
-    123
+    abc
     ```
 
     ``` cicada
@@ -388,13 +388,13 @@ title: 第一章 自然数
 
   -
     ``` cicada
-    "123"
+    "abc"
     ```
 
     是 `String`，因为它写在双引号里；
 
     ``` plaintext
-    123
+    abc
     ```
 
     不是 `String`，因为它没写在双引号里；
@@ -483,6 +483,140 @@ title: 第一章 自然数
 
   - 它是断言，但是我不相信这个断言。
 
+  - 你能看出
+
+    ``` cicada
+    cons("小草莓", "冰淇淋")
+    ```
+
+    是
+
+    ``` cicada
+    Pair(String, String)
+    ```
+
+    吗？
+
+  - 不能。
+
+    我还不知道什么是 `Pair`，也不知道「是 `Pair`」意味着什么。
+
+  - `Pair` 是「一对东西」的意思。
+
+    「是 `Pair(String, String)`」就意味着，
+    这对东西的前一个是 `String`，比如 `"小草莓"`，
+    并且后一个也是 `String`，比如 `"冰淇淋"`。
+
+    我们管这前一个叫 `car`，后一个叫 `cdr`，
+    并且用 `cons` 来构造 `Pair`。
+
+  - 好的。
+
+    也就是说 `Pair` 以 `cons` 开头，它有两部分，
+    前一部分叫 `car`，后一部分叫 `cdr`。
+
+    这么说来
+
+    ``` cicada
+    cons("小草莓", "冰淇淋")
+    ```
+
+    确实是
+
+    ``` cicada
+    Pair(String, String)
+    ```
+
+    因为 `cons("小草莓", "冰淇淋")` 的 `car` 是 `String`，
+    并且 cdr 也是 `String`。
+
+    那么 `cons` 是 `Pair` 吗？
+
+  - 不是。
+
+    `cons` 是一个语言自带的构造子，它其实就是 "constructor" 缩写。
+    我们可以用它来构造 `Pair(__, __)`。
+
+    并且注意，和 `cons` 一样 `Pair` 也是需要两个参数才能称作是一个类型。
+
+    ``` cicada
+    cons("小草莓", "冰淇淋")
+    ```
+
+    与
+
+    ``` cicada
+    cons("小草莓", "冰淇淋")
+    ```
+
+    是相等的
+
+    ``` cicada
+    Pair(String, String)
+    ```
+
+    吗？
+
+  - 两个表达式是相等的 `Pair(String, String)` 意味着什么呢？
+
+    我们还不知道这一点。
+
+  - 意味着他们的 `car` 是相等的 `String`，
+    并且 `cdr` 是相等的 `String`。
+
+  - 这么说来
+
+    ``` cicada
+    cons("小草莓", "冰淇淋")
+    ```
+
+    与
+
+    ``` cicada
+    cons("小草莓", "冰淇淋")
+    ```
+
+    确实是相等的
+
+    ``` cicada
+    Pair(String, String)
+    ```
+
+  -
+
+    ``` cicada
+    cons("小草莓", "小草莓")
+    ```
+
+    与
+
+    ``` cicada
+    cons("小草莓", "冰淇淋")
+    ```
+
+    是相等的
+
+    ``` cicada
+    Pair(String, String)
+    ```
+
+    吗？
+
+  -
+
+    ``` cicada
+    cons("小草莓", "小草莓")
+    ```
+
+    的 `cdr` 是 `"小草莓"`，而
+
+    ``` cicada
+    cons("小草莓", "冰淇淋")
+    ```
+
+    的 `cdr` 是 `"冰淇淋"`。
+
+    所以我们不应该相信这个断言。
 
   - 未完待续⋯⋯
 
