@@ -508,7 +508,7 @@ title: 第一章 自然数
     并且后一个也是 `String`，比如 `"冰淇淋"`。
 
     我们管这前一个叫 `car`，后一个叫 `cdr`，
-    并且用 `cons` 来构造 `Pair`。
+    并且用 `cons` 来构造 `Pair(__, __)`。
 
   - 好的。
 
@@ -528,7 +528,7 @@ title: 第一章 自然数
     ```
 
     因为 `cons("小草莓", "冰淇淋")` 的 `car` 是 `String`，
-    并且 cdr 也是 `String`。
+    并且 `cdr` 也是 `String`。
 
     那么 `cons` 是 `Pair` 吗？
 
@@ -537,7 +537,7 @@ title: 第一章 自然数
     `cons` 是一个语言自带的构造子，它其实就是 "constructor" 缩写。
     我们可以用它来构造 `Pair(__, __)`。
 
-    并且注意，和 `cons` 一样 `Pair` 也是需要两个参数才能称作是一个类型。
+    并且注意，和 `cons` 一样 `Pair` 也是需要两个参数才算完整。
 
     ``` cicada inactive
     cons("小草莓", "冰淇淋")
