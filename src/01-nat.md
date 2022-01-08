@@ -485,7 +485,7 @@ title: 第一章 自然数
 
   - 你能看出
 
-    ``` cicada
+    ``` cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
@@ -517,7 +517,7 @@ title: 第一章 自然数
 
     这么说来
 
-    ``` cicada
+    ``` cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
@@ -539,13 +539,13 @@ title: 第一章 自然数
 
     并且注意，和 `cons` 一样 `Pair` 也是需要两个参数才能称作是一个类型。
 
-    ``` cicada
+    ``` cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
     与
 
-    ``` cicada
+    ``` cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
@@ -566,13 +566,13 @@ title: 第一章 自然数
 
   - 这么说来
 
-    ``` cicada
+    ``` cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
     与
 
-    ``` cicada
+    ``` cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
@@ -584,13 +584,13 @@ title: 第一章 自然数
 
   -
 
-    ``` cicada
+    ``` cicada inactive
     cons("小草莓", "小草莓")
     ```
 
     与
 
-    ``` cicada
+    ``` cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
@@ -604,13 +604,13 @@ title: 第一章 自然数
 
   -
 
-    ``` cicada
+    ``` cicada inactive
     cons("小草莓", "小草莓")
     ```
 
     的 `cdr` 是 `"小草莓"`，而
 
-    ``` cicada
+    ``` cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
