@@ -316,7 +316,12 @@ title: 第一章 自然数
 
     看来这两句话也是断言。
 
-    那么「`add1(zero)` 与 `add1(zero)` 是相等的 `Nat`」
+    那么
+
+    ``` plaintext
+    add1(zero) 与 add1(zero) 是相等的 Nat
+    ```
+
     也是断言，对吗？
 
   - 是的，并且我相信它是真的。
@@ -735,13 +740,13 @@ title: 第一章 自然数
 
   - 这么说
 
-    ```
+    ``` plaintext
     String 和 String 是相等的类型
     ```
 
     以及
 
-    ```
+    ``` plaintext
     Nat 和 Nat 是相等的类型
     ```
 
