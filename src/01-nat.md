@@ -814,11 +814,11 @@ title: 第一章 自然数
   - 黄铜发现自己是唢呐、我有什么办法？
     写程序的人发现自己是通灵者、我也没有办法。
 
-    <span style="font-weight: 700; color: #ef4444;">与红、</span>
-    <span style="font-weight: 700; color: #0ea5e9;">或蓝、</span>
-    <span style="font-weight: 700; color: #facc15;">非黄、</span>
-    <span style="font-weight: 700; color: #1c1917;">任黑、</span>
-    <span style="font-weight: 700; color: #d6d3d1;">有白。</span>
+    <div style="display: inline; font-weight: 700; color: #ef4444;">与红、</div>
+    <div style="display: inline; font-weight: 700; color: #0ea5e9;">或蓝、</div>
+    <div style="display: inline; font-weight: 700; color: #facc15;">非黄、</div>
+    <div style="display: inline; font-weight: 700; color: #1c1917;">任黑、</div>
+    <div style="display: inline; font-weight: 700; color: #d6d3d1;">有白。</div>
 
     他声称自己发明了逻辑的色彩。
 
