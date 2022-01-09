@@ -8,7 +8,11 @@ title: 第一章 自然数
 
   - 很开心能知道这样一个领域，给我讲讲其中的故事和历险吧！
 
-  - 什么是数呢？
+  - 好的！
+
+    我们从一个问题开始吧。
+
+    什么是数呢？
 
   - 数就是数数。
 
@@ -215,6 +219,8 @@ title: 第一章 自然数
     当我们知道了什么，就会以下断言的方式表达出来。
 
     关于 `add1(twelve)` 和 `Nat` 我们能断言些什么呢？
+
+    - 谢谢 Per Martin-Löf，关于断言的讨论来自[他的论文](#)。
 
   - 我们可以说
 
@@ -835,3 +841,14 @@ title: 第一章 自然数
     <div style="display: inline; color: #d6d3d1;">
     有。安静的咖啡馆里、沐浴着午后的阳光、有位通灵者、嘴里含着甜甜的牛轧糖、轻轻地敲着键盘。
     </div>
+
+------
+
+# 注脚
+
+## Martin-Löf 关于「断言」的论文
+
+"On the meanings of the logical constants and the justification of logical laws", 1996.
+
+- [PDF](https://gitlab.com/xieyuheng/martin-lof/-/raw/master/pdfs/Meanings-of-the-Logical-Constants-1983.pdf)
+- [我的笔记](https://readonly.link/articles/github.com/xieyuheng/inner/-/persons/martin-l%C3%B6f/on-the-meanings-of-the-logical-constants-and-the-justification-of-logical-laws.md)
