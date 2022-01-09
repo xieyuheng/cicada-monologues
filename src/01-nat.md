@@ -216,7 +216,7 @@ title: 第一章 自然数
   - 断言有什么用？
 
   - 人们通过 **下断言** 来表达自己所相信的事情。
-    当我们知道了什么，就会以下断言的方式表达出来<sup style="display: inline;">1</sup>。
+    当我们知道了什么，就会以下断言的方式表达出来<div style="display: inline;"><sup>1</sup></div>。
 
     关于 `add1(twelve)` 和 `Nat` 我们能断言些什么呢？
 
