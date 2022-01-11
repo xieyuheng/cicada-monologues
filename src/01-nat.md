@@ -325,8 +325,11 @@ title: 第一章 自然数
     那么
 
     ``` plaintext
-    add1(zero) 与 add1(zero)
-    是相等的 Nat
+      add1(zero)
+    与
+      add1(zero)
+    是相等的
+      Nat
     ```
 
     也是断言，对吗？
