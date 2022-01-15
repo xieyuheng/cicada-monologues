@@ -956,7 +956,7 @@ title: 第一章 自然数
     他声称自己发明了逻辑的色彩。
 
     <div style="display: inline; color: #ef4444;">
-    与。朱红的宫墙外、醉妓胭脂妆面、梦与帝相伴。
+    与。朱红的宫墙外、酒醉的舞者胭脂妆面、梦与蝶相伴。
     </div>
 
     <div style="display: inline; color: #0ea5e9;">
