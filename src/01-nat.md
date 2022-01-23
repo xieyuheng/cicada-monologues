@@ -22,11 +22,11 @@ title: 第一章 自然数
 
   - 没错，在很多的经验中，我们都会发现一个很自然的序关系。
 
-    我们应该从零开始，然后数下一个，再下一个⋯⋯
+    我们应该从零开始，然后数下一个，再下一个 ⋯⋯
 
     下面的定义可以描述这种模式吗？
 
-    ``` cicada
+    ```cicada
     datatype Nat {
       zero: Nat
       add1(prev: Nat): Nat
@@ -45,7 +45,7 @@ title: 第一章 自然数
 
     这花括号中的第一行
 
-    ``` plaintext
+    ```plaintext
     zero: Nat
     ```
 
@@ -53,7 +53,7 @@ title: 第一章 自然数
 
     猜猜第二行
 
-    ``` plaintext
+    ```plaintext
     add1(prev: Nat): Nat
     ```
 
@@ -79,7 +79,7 @@ title: 第一章 自然数
 
     你能看出来，下面这个东西是 `Nat` 吗？
 
-    ``` cicada
+    ```cicada
     Nat.zero
     ```
 
@@ -101,7 +101,7 @@ title: 第一章 自然数
 
     但是我们可以用 `let` 赋予它意义
 
-    ``` cicada
+    ```cicada
     let zero = Nat.zero
     ```
 
@@ -109,7 +109,7 @@ title: 第一章 自然数
 
     我们还可以对 `add1` 做类似的赋值
 
-    ``` cicada
+    ```cicada
     let add1 = Nat.add1
     ```
 
@@ -127,7 +127,7 @@ title: 第一章 自然数
 
     下面这个是 `Nat` 吗？
 
-    ``` cicada
+    ```cicada
     add1(zero)
     ```
 
@@ -137,7 +137,7 @@ title: 第一章 自然数
 
   - 这个是 `Nat` 吗？
 
-    ``` cicada
+    ```cicada
     Nat.add1(Nat.zero)
     ```
 
@@ -156,7 +156,7 @@ title: 第一章 自然数
 
   - 应该是这样
 
-    ``` cicada
+    ```cicada
     let one = add1(zero)
     let two = add1(one)
     let three = add1(two)
@@ -176,7 +176,7 @@ title: 第一章 自然数
 
   - 这个是 `Nat` 吗？
 
-    ``` cicada
+    ```cicada
     add1(add1(zero))
     ```
 
@@ -187,7 +187,7 @@ title: 第一章 自然数
 
   - 这个是 `Nat` 吗？
 
-    ``` cicada
+    ```cicada
     add1(twelve)
     ```
 
@@ -201,13 +201,13 @@ title: 第一章 自然数
 
   - 像这样的句子
 
-    ``` plaintext
+    ```plaintext
     add1(add1(zero)) 是 Nat
     ```
 
     还有这样的句子
 
-    ``` plaintext
+    ```plaintext
     add1(twelve) 是 Nat
     ```
 
@@ -224,13 +224,13 @@ title: 第一章 自然数
 
   - 我们可以说
 
-    ``` plaintext
+    ```plaintext
     add1(twelve) 是 Nat
     ```
 
   - 当这么说时，我们同时也在表达
 
-    ``` plaintext
+    ```plaintext
     我相信
       add1(twelve) 是 Nat
     是真的
@@ -244,7 +244,7 @@ title: 第一章 自然数
 
   - 不完整的断言，比如
 
-    ``` plaintext
+    ```plaintext
     ＿＿是＿＿
     ```
 
@@ -269,25 +269,25 @@ title: 第一章 自然数
 
   - 另一个断言句式是
 
-    ``` plaintext
+    ```plaintext
     ＿＿与＿＿是相等的＿＿
     ```
 
     请问
 
-    ``` cicada
+    ```cicada
     zero
     ```
 
     与
 
-    ``` cicada
+    ```cicada
     zero
     ```
 
     是相等的
 
-    ``` cicada
+    ```cicada
     Nat
     ```
 
@@ -297,20 +297,19 @@ title: 第一章 自然数
 
     它们显然是相等的 `Nat`。
 
-  -
-    ``` cicada
+  - ```cicada
     zero
     ```
 
     与
 
-    ``` cicada
+    ```cicada
     add1(zero)
     ```
 
     是相等的
 
-    ``` cicada
+    ```cicada
     Nat
     ```
 
@@ -324,7 +323,7 @@ title: 第一章 自然数
 
     那么
 
-    ``` plaintext
+    ```plaintext
       add1(zero)
     与
       add1(zero)
@@ -338,19 +337,19 @@ title: 第一章 自然数
 
     你能看出
 
-    ``` cicada
+    ```cicada
     "小草莓"
     ```
 
     与
 
-    ``` cicada
+    ```cicada
     "小草莓"
     ```
 
     是相等的
 
-    ``` cicada
+    ```cicada
     String
     ```
 
@@ -365,7 +364,7 @@ title: 第一章 自然数
 
     下面这个是 `String` 吗？
 
-    ``` cicada
+    ```cicada
     "小草莓"
     ```
 
@@ -376,7 +375,7 @@ title: 第一章 自然数
 
   - 下面这个是 `String` 吗？
 
-    ``` cicada
+    ```cicada
     "strawberry"
     ```
 
@@ -386,50 +385,48 @@ title: 第一章 自然数
 
   - 下面这些是 `String` 吗？
 
-    ``` cicada
+    ```cicada
     "abc"
     ```
 
-    ``` plaintext
+    ```plaintext
     abc
     ```
 
-    ``` cicada
+    ```cicada
     "  "
     ```
 
-    ``` cicada
+    ```cicada
     ""
     ```
 
-  -
-    ``` cicada
+  - ```cicada
     "abc"
     ```
 
     是 `String`，因为它写在双引号里；
 
-    ``` plaintext
+    ```plaintext
     abc
     ```
 
     不是 `String`，因为它没写在双引号里；
 
-    ``` cicada
+    ```cicada
     "  "
     ```
 
     也是 `String`，因为空格也是字符，
     所以空格写在双引号里就是字符串；
 
-    ``` cicada
+    ```cicada
     ""
     ```
 
     我不太确定，这里只有双引号，里面没写字符。
 
-  -
-    ``` cicada
+  - ```cicada
     ""
     ```
 
@@ -437,19 +434,19 @@ title: 第一章 自然数
 
     请问
 
-    ``` cicada
+    ```cicada
     "小草莓"
     ```
 
     与
 
-    ``` cicada
+    ```cicada
     "小草莓"
     ```
 
     是相等的
 
-    ``` cicada
+    ```cicada
     String
     ```
 
@@ -459,20 +456,19 @@ title: 第一章 自然数
 
     因为双引号中的字符是对应相等的。
 
-  -
-    ``` cicada
+  - ```cicada
     "小草莓"
     ```
 
     与
 
-    ``` cicada
+    ```cicada
     "冰淇淋"
     ```
 
     是相等的
 
-    ``` cicada
+    ```cicada
     String
     ```
 
@@ -501,13 +497,13 @@ title: 第一章 自然数
 
   - 你能看出
 
-    ``` cicada inactive
+    ```cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
     是
 
-    ``` cicada
+    ```cicada
     Pair(String, String)
     ```
 
@@ -534,13 +530,13 @@ title: 第一章 自然数
 
     这么说来
 
-    ``` cicada inactive
+    ```cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
     确实是
 
-    ``` cicada
+    ```cicada
     Pair(String, String)
     ```
 
@@ -559,19 +555,19 @@ title: 第一章 自然数
 
     请问
 
-    ``` cicada inactive
+    ```cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
     与
 
-    ``` cicada inactive
+    ```cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
     是相等的
 
-    ``` cicada
+    ```cicada
     Pair(String, String)
     ```
 
@@ -586,49 +582,47 @@ title: 第一章 自然数
 
   - 这么说来
 
-    ``` cicada inactive
+    ```cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
     与
 
-    ``` cicada inactive
+    ```cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
     确实是相等的
 
-    ``` cicada
+    ```cicada
     Pair(String, String)
     ```
 
-  -
-    ``` cicada inactive
+  - ```cicada inactive
     cons("小草莓", "小草莓")
     ```
 
     与
 
-    ``` cicada inactive
+    ```cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
     是相等的
 
-    ``` cicada
+    ```cicada
     Pair(String, String)
     ```
 
     吗？
 
-  -
-    ``` cicada inactive
+  - ```cicada inactive
     cons("小草莓", "小草莓")
     ```
 
     的 `cdr` 是 `"小草莓"`，而
 
-    ``` cicada inactive
+    ```cicada inactive
     cons("小草莓", "冰淇淋")
     ```
 
@@ -641,13 +635,13 @@ title: 第一章 自然数
 
     比如说
 
-    ``` cicada inactive
+    ```cicada inactive
     car(cons("小草莓", "冰淇淋"))
     ```
 
     与
 
-    ``` cicada
+    ```cicada
     "小草莓"
     ```
 
@@ -655,13 +649,13 @@ title: 第一章 自然数
 
   - 那么
 
-    ``` cicada inactive
+    ```cicada inactive
     cdr(cons("小草莓", "冰淇淋"))
     ```
 
     与
 
-    ``` cicada
+    ```cicada
     "冰淇淋"
     ```
 
@@ -673,7 +667,7 @@ title: 第一章 自然数
 
     关于
 
-    ``` cicada inactive
+    ```cicada inactive
     cdr(cons("小草莓", "冰淇淋"))
     ```
 
@@ -702,25 +696,25 @@ title: 第一章 自然数
 
   - 第三个断言句式就是
 
-    ``` plaintext
+    ```plaintext
     ＿＿是类型
     ```
 
   - 这意味着
 
-    ``` plaintext
+    ```plaintext
     String 是类型
     ```
 
     还有
 
-    ``` plaintext
+    ```plaintext
     Nat 是类型
     ```
 
     以及
 
-    ``` plaintext
+    ```plaintext
     Pair(String, String) 是类型
     ```
 
@@ -751,19 +745,19 @@ title: 第一章 自然数
 
   - 第四个，也是最后一个，断言句式就是
 
-    ``` plaintext
+    ```plaintext
     ＿＿与＿＿是相等的类型
     ```
 
   - 这么说
 
-    ``` plaintext
+    ```plaintext
     String 和 String 是相等的类型
     ```
 
     以及
 
-    ``` plaintext
+    ```plaintext
     Nat 和 Nat 是相等的类型
     ```
 
@@ -781,7 +775,6 @@ title: 第一章 自然数
 
     四、＿＿与＿＿是相等的类型。
 
-
 - [dialog]
 
   - 断言以表达所知，所知者，所信也。
@@ -793,7 +786,7 @@ title: 第一章 自然数
 
     当我们用「断言」一词时，我们强调所言与人的关系。
 
-  - 我想起了庄子的一段话⋯⋯
+  - 我想起了庄子的一段话 ⋯⋯
 
 - [poem-vertical] 莊子 · 齊物論
 
@@ -807,20 +800,19 @@ title: 第一章 自然数
 
 - [dialog]
 
-  -
-    ``` cicada
+  - ```cicada
     "小草莓"
     ```
 
     和
 
-    ``` cicada
+    ```cicada
     "小草莓"
     ```
 
     是相等的
 
-    ``` cicada
+    ```cicada
     "好吃的"
     ```
 
@@ -828,13 +820,13 @@ title: 第一章 自然数
 
   - 我想，首先我们要问
 
-    ``` cicada
+    ```cicada
     "小草莓"
     ```
 
     是
 
-    ``` cicada
+    ```cicada
     "好吃的"
     ```
 
@@ -844,7 +836,7 @@ title: 第一章 自然数
 
     因为要问这句，首先我们必须知道
 
-    ``` cicada
+    ```cicada
     "好吃的"
     ```
 
@@ -864,53 +856,51 @@ title: 第一章 自然数
     又比如，想要问两个表达式是否是相等的某个类型，
     我们必须先知道，这两个表达式确实是这个类型。
 
-  -
-     ``` cicada inactive
-     car(cons("小草莓", "冰淇淋"))
-     ```
+  - ```cicada inactive
+    car(cons("小草莓", "冰淇淋"))
+    ```
 
-     与
+    与
 
-     ``` cicada
-     "小草莓"
-     ```
+    ```cicada
+    "小草莓"
+    ```
 
-     是是相等的
+    是是相等的
 
-     ```
-     String
-     ```
+    ```
+    String
+    ```
 
-     吗？
+    吗？
 
   - 是。
 
     我还记得 `car` 取 `cons(__, ___)` 的前一个位置的值。
 
-  -
-     ``` cicada inactive
-     cdr(cons("小草莓", "冰淇淋"))
-     ```
+  - ```cicada inactive
+    cdr(cons("小草莓", "冰淇淋"))
+    ```
 
-     与
+    与
 
-     ``` cicada
-     "冰淇淋"
-     ```
+    ```cicada
+    "冰淇淋"
+    ```
 
-     是是相等的
+    是是相等的
 
-     ```
-     String
-     ```
+    ```
+    String
+    ```
 
-     吗？
+    吗？
 
   - 是。
 
     因为 `cdr` 取后一个位置，也就是 `cdr` 位置的值。
 
-  - 未完待续⋯⋯
+  - 未完待续 ⋯⋯
 
   -
 
@@ -922,7 +912,7 @@ title: 第一章 自然数
     我用 `Color` 命名这个数据类型，
     它有五个构造子。
 
-    ``` cicada
+    ```cicada
     datatype Color {
       red: Color
       blue: Color
@@ -934,7 +924,7 @@ title: 第一章 自然数
 
     然后下面这些就都是 `Color` 了
 
-    ``` cicada
+    ```cicada
     Color.red
     Color.blue
     Color.yellow
@@ -975,7 +965,7 @@ title: 第一章 自然数
     有。安静的咖啡馆里、沐浴着午后的阳光、有位通灵者、嘴里含着甜甜的牛轧糖、轻轻地敲着键盘。
     </div>
 
-------
+---
 
 # 注脚
 

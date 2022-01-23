@@ -2,7 +2,7 @@
 title: 第一章 自然数 材料
 ---
 
-``` cicada
+```cicada
 function add(x: Nat, y: Nat): Nat {
   return induction (x) {
     case zero => y
@@ -11,7 +11,7 @@ function add(x: Nat, y: Nat): Nat {
 }
 ```
 
-``` cicada
+```cicada
 function mul(x: Nat, y: Nat): Nat {
   return induction (x) {
     case zero => zero
@@ -22,7 +22,7 @@ function mul(x: Nat, y: Nat): Nat {
 mul(two, two)
 ```
 
-``` cicada
+```cicada
 // NOTE We need to keep the `target` the first argument,
 //   because partial evaluation relys on it.
 
@@ -38,7 +38,7 @@ function power(base: Nat, n: Nat): Nat {
 }
 ```
 
-``` cicada
+```cicada
 function gauss(n: Nat): Nat {
   return induction (n) {
     case zero => zero
@@ -60,7 +60,7 @@ gauss(nine)
 gauss(ten)
 ```
 
-``` cicada
+```cicada
 function factorial(n: Nat): Nat {
   return induction (n) {
     case zero => one
