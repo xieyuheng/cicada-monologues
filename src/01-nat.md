@@ -974,4 +974,4 @@ title: 第一章 自然数
 "On the meanings of the logical constants and the justification of logical laws", 1996.
 
 - [PDF](https://gitlab.com/xieyuheng/martin-lof/-/raw/master/pdfs/Meanings-of-the-Logical-Constants-1983.pdf)
-- [我的笔记](https://readonly.link/articles/github.com/xieyuheng/inner/-/persons/martin-l%C3%B6f/on-the-meanings-of-the-logical-constants-and-the-justification-of-logical-laws.md)
+- [我的笔记](https://readonly.link/articles/xieyuheng/xieyuheng/-/persons/martin-l%C3%B6f/on-the-meanings-of-the-logical-constants-and-the-justification-of-logical-laws.md)
