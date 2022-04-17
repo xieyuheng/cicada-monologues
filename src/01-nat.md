@@ -79,7 +79,7 @@ title: 第一章 自然数
 
     你能看出来，下面这个东西是 `Nat` 吗？
 
-    ```cicada
+    ```cicada compute
     Nat.zero
     ```
 
@@ -127,7 +127,7 @@ title: 第一章 自然数
 
     下面这个是 `Nat` 吗？
 
-    ```cicada
+    ```cicada compute
     add1(zero)
     ```
 
@@ -137,7 +137,7 @@ title: 第一章 自然数
 
   - 这个是 `Nat` 吗？
 
-    ```cicada
+    ```cicada compute
     Nat.add1(Nat.zero)
     ```
 
@@ -176,7 +176,7 @@ title: 第一章 自然数
 
   - 这个是 `Nat` 吗？
 
-    ```cicada
+    ```cicada compute
     add1(add1(zero))
     ```
 
@@ -187,7 +187,7 @@ title: 第一章 自然数
 
   - 这个是 `Nat` 吗？
 
-    ```cicada
+    ```cicada compute
     add1(twelve)
     ```
 
@@ -275,19 +275,19 @@ title: 第一章 自然数
 
     请问
 
-    ```cicada
+    ```cicada compute
     zero
     ```
 
     与
 
-    ```cicada
+    ```cicada compute
     zero
     ```
 
     是相等的
 
-    ```cicada
+    ```cicada compute
     Nat
     ```
 
@@ -297,19 +297,19 @@ title: 第一章 自然数
 
     它们显然是相等的 `Nat`。
 
-  - ```cicada
+  - ```cicada compute
     zero
     ```
 
     与
 
-    ```cicada
+    ```cicada compute
     add1(zero)
     ```
 
     是相等的
 
-    ```cicada
+    ```cicada compute
     Nat
     ```
 
@@ -337,19 +337,19 @@ title: 第一章 自然数
 
     你能看出
 
-    ```cicada
+    ```cicada compute
     "小草莓"
     ```
 
     与
 
-    ```cicada
+    ```cicada compute
     "小草莓"
     ```
 
     是相等的
 
-    ```cicada
+    ```cicada compute
     String
     ```
 
@@ -364,7 +364,7 @@ title: 第一章 自然数
 
     下面这个是 `String` 吗？
 
-    ```cicada
+    ```cicada compute
     "小草莓"
     ```
 
@@ -375,7 +375,7 @@ title: 第一章 自然数
 
   - 下面这个是 `String` 吗？
 
-    ```cicada
+    ```cicada compute
     "strawberry"
     ```
 
@@ -385,7 +385,7 @@ title: 第一章 自然数
 
   - 下面这些是 `String` 吗？
 
-    ```cicada
+    ```cicada compute
     "abc"
     ```
 
@@ -393,15 +393,15 @@ title: 第一章 自然数
     abc
     ```
 
-    ```cicada
+    ```cicada compute
     "  "
     ```
 
-    ```cicada
+    ```cicada compute
     ""
     ```
 
-  - ```cicada
+  - ```cicada compute
     "abc"
     ```
 
@@ -413,20 +413,20 @@ title: 第一章 自然数
 
     不是 `String`，因为它没写在双引号里；
 
-    ```cicada
+    ```cicada compute
     "  "
     ```
 
     也是 `String`，因为空格也是字符，
     所以空格写在双引号里就是字符串；
 
-    ```cicada
+    ```cicada compute
     ""
     ```
 
     我不太确定，这里只有双引号，里面没写字符。
 
-  - ```cicada
+  - ```cicada compute
     ""
     ```
 
@@ -434,19 +434,19 @@ title: 第一章 自然数
 
     请问
 
-    ```cicada
+    ```cicada compute
     "小草莓"
     ```
 
     与
 
-    ```cicada
+    ```cicada compute
     "小草莓"
     ```
 
     是相等的
 
-    ```cicada
+    ```cicada compute
     String
     ```
 
@@ -456,19 +456,19 @@ title: 第一章 自然数
 
     因为双引号中的字符是对应相等的。
 
-  - ```cicada
+  - ```cicada compute
     "小草莓"
     ```
 
     与
 
-    ```cicada
+    ```cicada compute
     "冰淇淋"
     ```
 
     是相等的
 
-    ```cicada
+    ```cicada compute
     String
     ```
 
@@ -503,7 +503,7 @@ title: 第一章 自然数
 
     是
 
-    ```cicada
+    ```cicada compute
     Pair(String, String)
     ```
 
@@ -536,7 +536,7 @@ title: 第一章 自然数
 
     确实是
 
-    ```cicada
+    ```cicada compute
     Pair(String, String)
     ```
 
@@ -567,7 +567,7 @@ title: 第一章 自然数
 
     是相等的
 
-    ```cicada
+    ```cicada compute
     Pair(String, String)
     ```
 
@@ -594,7 +594,7 @@ title: 第一章 自然数
 
     确实是相等的
 
-    ```cicada
+    ```cicada compute
     Pair(String, String)
     ```
 
@@ -610,7 +610,7 @@ title: 第一章 自然数
 
     是相等的
 
-    ```cicada
+    ```cicada compute
     Pair(String, String)
     ```
 
@@ -641,7 +641,7 @@ title: 第一章 自然数
 
     与
 
-    ```cicada
+    ```cicada compute
     "小草莓"
     ```
 
@@ -655,7 +655,7 @@ title: 第一章 自然数
 
     与
 
-    ```cicada
+    ```cicada compute
     "冰淇淋"
     ```
 
@@ -800,19 +800,19 @@ title: 第一章 自然数
 
 - [dialog]
 
-  - ```cicada
+  - ```cicada compute
     "小草莓"
     ```
 
     和
 
-    ```cicada
+    ```cicada compute
     "小草莓"
     ```
 
     是相等的
 
-    ```cicada
+    ```cicada compute
     "好吃的"
     ```
 
@@ -820,13 +820,13 @@ title: 第一章 自然数
 
   - 我想，首先我们要问
 
-    ```cicada
+    ```cicada compute
     "小草莓"
     ```
 
     是
 
-    ```cicada
+    ```cicada compute
     "好吃的"
     ```
 
@@ -836,7 +836,7 @@ title: 第一章 自然数
 
     因为要问这句，首先我们必须知道
 
-    ```cicada
+    ```cicada compute
     "好吃的"
     ```
 
@@ -862,7 +862,7 @@ title: 第一章 自然数
 
     与
 
-    ```cicada
+    ```cicada compute
     "小草莓"
     ```
 
@@ -884,7 +884,7 @@ title: 第一章 自然数
 
     与
 
-    ```cicada
+    ```cicada compute
     "冰淇淋"
     ```
 
@@ -925,11 +925,11 @@ title: 第一章 自然数
     然后下面这些就都是 `Color` 了
 
     ```cicada
-    Color.red
-    Color.blue
-    Color.yellow
-    Color.black
-    Color.white
+    compute Color.red
+    compute Color.blue
+    compute Color.yellow
+    compute Color.black
+    compute Color.white
     ```
 
 - [poem-vertical] 通灵者之歌 · 逻辑
