@@ -45,7 +45,7 @@ title: 第一章 自然数
 
     这花括号中的第一行
 
-    ```plaintext
+    ```
     zero: Nat
     ```
 
@@ -53,7 +53,7 @@ title: 第一章 自然数
 
     猜猜第二行
 
-    ```plaintext
+    ```
     add1(prev: Nat): Nat
     ```
 
@@ -201,13 +201,13 @@ title: 第一章 自然数
 
   - 像这样的句子
 
-    ```plaintext
+    ```
     add1(add1(zero)) 是 Nat
     ```
 
     还有这样的句子
 
-    ```plaintext
+    ```
     add1(twelve) 是 Nat
     ```
 
@@ -224,13 +224,13 @@ title: 第一章 自然数
 
   - 我们可以说
 
-    ```plaintext
+    ```
     add1(twelve) 是 Nat
     ```
 
   - 当这么说时，我们同时也在表达
 
-    ```plaintext
+    ```
     我相信
       add1(twelve) 是 Nat
     是真的
@@ -244,7 +244,7 @@ title: 第一章 自然数
 
   - 不完整的断言，比如
 
-    ```plaintext
+    ```
     ＿＿是＿＿
     ```
 
@@ -269,7 +269,7 @@ title: 第一章 自然数
 
   - 另一个断言句式是
 
-    ```plaintext
+    ```
     ＿＿与＿＿是相等的＿＿
     ```
 
@@ -323,7 +323,7 @@ title: 第一章 自然数
 
     那么
 
-    ```plaintext
+    ```
       add1(zero)
     与
       add1(zero)
@@ -389,7 +389,7 @@ title: 第一章 自然数
     "abc"
     ```
 
-    ```plaintext
+    ```
     abc
     ```
 
@@ -407,7 +407,7 @@ title: 第一章 自然数
 
     是 `String`，因为它写在双引号里；
 
-    ```plaintext
+    ```
     abc
     ```
 
@@ -696,25 +696,25 @@ title: 第一章 自然数
 
   - 第三个断言句式就是
 
-    ```plaintext
+    ```
     ＿＿是类型
     ```
 
   - 这意味着
 
-    ```plaintext
+    ```
     String 是类型
     ```
 
     还有
 
-    ```plaintext
+    ```
     Nat 是类型
     ```
 
     以及
 
-    ```plaintext
+    ```
     Pair(String, String) 是类型
     ```
 
@@ -745,19 +745,19 @@ title: 第一章 自然数
 
   - 第四个，也是最后一个，断言句式就是
 
-    ```plaintext
+    ```
     ＿＿与＿＿是相等的类型
     ```
 
   - 这么说
 
-    ```plaintext
+    ```
     String 和 String 是相等的类型
     ```
 
     以及
 
-    ```plaintext
+    ```
     Nat 和 Nat 是相等的类型
     ```
 
