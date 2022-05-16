@@ -497,7 +497,7 @@ title: 第一章 自然数
 
   - 你能看出
 
-    ```cicada inactive
+    ```
     cons("小草莓", "冰淇淋")
     ```
 
@@ -530,7 +530,7 @@ title: 第一章 自然数
 
     这么说来
 
-    ```cicada inactive
+    ```
     cons("小草莓", "冰淇淋")
     ```
 
@@ -555,13 +555,13 @@ title: 第一章 自然数
 
     请问
 
-    ```cicada inactive
+    ```
     cons("小草莓", "冰淇淋")
     ```
 
     与
 
-    ```cicada inactive
+    ```
     cons("小草莓", "冰淇淋")
     ```
 
@@ -582,13 +582,13 @@ title: 第一章 自然数
 
   - 这么说来
 
-    ```cicada inactive
+    ```
     cons("小草莓", "冰淇淋")
     ```
 
     与
 
-    ```cicada inactive
+    ```
     cons("小草莓", "冰淇淋")
     ```
 
@@ -598,13 +598,13 @@ title: 第一章 自然数
     Pair(String, String)
     ```
 
-  - ```cicada inactive
+  - ```
     cons("小草莓", "小草莓")
     ```
 
     与
 
-    ```cicada inactive
+    ```
     cons("小草莓", "冰淇淋")
     ```
 
@@ -616,13 +616,13 @@ title: 第一章 自然数
 
     吗？
 
-  - ```cicada inactive
+  - ```
     cons("小草莓", "小草莓")
     ```
 
     的 `cdr` 是 `"小草莓"`，而
 
-    ```cicada inactive
+    ```
     cons("小草莓", "冰淇淋")
     ```
 
@@ -635,7 +635,7 @@ title: 第一章 自然数
 
     比如说
 
-    ```cicada inactive
+    ```
     car(cons("小草莓", "冰淇淋"))
     ```
 
@@ -649,7 +649,7 @@ title: 第一章 自然数
 
   - 那么
 
-    ```cicada inactive
+    ```
     cdr(cons("小草莓", "冰淇淋"))
     ```
 
@@ -667,7 +667,7 @@ title: 第一章 自然数
 
     关于
 
-    ```cicada inactive
+    ```
     cdr(cons("小草莓", "冰淇淋"))
     ```
 
@@ -856,7 +856,7 @@ title: 第一章 自然数
     又比如，想要问两个表达式是否是相等的某个类型，
     我们必须先知道，这两个表达式确实是这个类型。
 
-  - ```cicada inactive
+  - ```
     car(cons("小草莓", "冰淇淋"))
     ```
 
@@ -878,7 +878,7 @@ title: 第一章 自然数
 
     我还记得 `car` 取 `cons(__, ___)` 的前一个位置的值。
 
-  - ```cicada inactive
+  - ```
     cdr(cons("小草莓", "冰淇淋"))
     ```
 
